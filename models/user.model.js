@@ -20,7 +20,7 @@ const userSchema = new Schema ({
     hashedPassword: {
         type: String,
         required: true,
-    },
+    }
 },
 {timestamps: true}
 );
